@@ -20,6 +20,11 @@
 		E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBF2234B3995001B8B8A /* LaunchViewOutput.swift */; };
 		E136CBF5234B39DB001B8B8A /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136CBF4234B39DB001B8B8A /* LaunchViewController.storyboard */; };
 		E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBF7234B4153001B8B8A /* R.generated.swift */; };
+		E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBFC234B43D3001B8B8A /* RootModuleConfigurator.swift */; };
+		E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBFE234B43E8001B8B8A /* TabBarEnum.swift */; };
+		E136CC01234B45D5001B8B8A /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CC00234B45D5001B8B8A /* TabBarViewModel.swift */; };
+		E136CC04234B4650001B8B8A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CC03234B4650001B8B8A /* RootViewController.swift */; };
+		E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CC0A234B4840001B8B8A /* TabItemNavigationController.swift */; };
 		E4B09A3F1279209ACE3E4DC3 /* Pods_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A2BDA937C77E563ADAA398 /* Pods_Demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +48,11 @@
 		E136CBF2234B3995001B8B8A /* LaunchViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewOutput.swift; sourceTree = "<group>"; };
 		E136CBF4234B39DB001B8B8A /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
 		E136CBF7234B4153001B8B8A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		E136CBFC234B43D3001B8B8A /* RootModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModuleConfigurator.swift; sourceTree = "<group>"; };
+		E136CBFE234B43E8001B8B8A /* TabBarEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarEnum.swift; sourceTree = "<group>"; };
+		E136CC00234B45D5001B8B8A /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		E136CC03234B4650001B8B8A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E136CC0A234B4840001B8B8A /* TabItemNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemNavigationController.swift; sourceTree = "<group>"; };
 		EA3C5557F522A82AF1D996FC /* Pods-Demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,6 +193,10 @@
 		E136CBD1234B35B8001B8B8A /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				E136CBFB234B4390001B8B8A /* Configurator */,
+				E136CC02234B4637001B8B8A /* View */,
+				E136CBFA234B437F001B8B8A /* Tabs */,
+				E136CC07234B4770001B8B8A /* Navigation */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -296,6 +310,39 @@
 				E136CBE8234B3899001B8B8A /* LaunchModuleConfigurator.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E136CBFA234B437F001B8B8A /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				E136CBFE234B43E8001B8B8A /* TabBarEnum.swift */,
+				E136CC00234B45D5001B8B8A /* TabBarViewModel.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		E136CBFB234B4390001B8B8A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E136CBFC234B43D3001B8B8A /* RootModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E136CC02234B4637001B8B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E136CC03234B4650001B8B8A /* RootViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E136CC07234B4770001B8B8A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E136CC0A234B4840001B8B8A /* TabItemNavigationController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,9 +523,14 @@
 			files = (
 				E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */,
 				E136CBE9234B3899001B8B8A /* LaunchModuleConfigurator.swift in Sources */,
+				E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */,
+				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
 				E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */,
+				E136CC04234B4650001B8B8A /* RootViewController.swift in Sources */,
+				E136CC01234B45D5001B8B8A /* TabBarViewModel.swift in Sources */,
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
+				E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
 				E136CBEB234B38CC001B8B8A /* LaunchRouterInput.swift in Sources */,
 				E136CBF1234B394C001B8B8A /* LaunchViewController.swift in Sources */,

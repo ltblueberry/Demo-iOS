@@ -7,3 +7,6 @@
 */
 
 "helloWorld" = "Hello World!";
+
+"tabTitle.networking" = "Networking";
+"tabTitle.realm" = "RealmSwift";

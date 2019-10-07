@@ -7,3 +7,6 @@
 */
 
 "helloWorld" = "Привет Мир!";
+
+"tabTitle.networking" = "Работа с сетью";
+"tabTitle.realm" = "Работа с БД";
