@@ -9,5 +9,6 @@ target 'Demo-iOS' do
   
   pod 'SwiftLint'
   pod 'SwiftFormat/CLI'
-
+  pod 'R.swift'
+  
 end

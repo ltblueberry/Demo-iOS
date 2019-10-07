@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -305,9 +305,11 @@
 				C05A0CD8E1FCBFA9EB0D03DB /* [CP] Check Pods Manifest.lock */,
 				E136CBC6234B32F1001B8B8A /* Run SwiftFormat */,
 				E136CBC5234B32C1001B8B8A /* Run SwiftLint */,
+				E136CBF6234B4011001B8B8A /* Run R.swift */,
 				E136CBAA234B2DAB001B8B8A /* Sources */,
 				E136CBAB234B2DAB001B8B8A /* Frameworks */,
 				E136CBAC234B2DAB001B8B8A /* Resources */,
+				C83BCB7CE5B20FABF1800FCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -389,6 +391,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C83BCB7CE5B20FABF1800FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E136CBC5234B32C1001B8B8A /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +443,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\"\n";
+		};
+		E136CBF6234B4011001B8B8A /* Run R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run R.swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/Demo-iOS/Resources/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Demo-iOS/Resources/R.generated.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
