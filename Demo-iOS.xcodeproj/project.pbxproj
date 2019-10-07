@@ -19,6 +19,7 @@
 		E136CBF1234B394C001B8B8A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBF0234B394C001B8B8A /* LaunchViewController.swift */; };
 		E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBF2234B3995001B8B8A /* LaunchViewOutput.swift */; };
 		E136CBF5234B39DB001B8B8A /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136CBF4234B39DB001B8B8A /* LaunchViewController.storyboard */; };
+		E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136CBF7234B4153001B8B8A /* R.generated.swift */; };
 		E4B09A3F1279209ACE3E4DC3 /* Pods_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A2BDA937C77E563ADAA398 /* Pods_Demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		E136CBF0234B394C001B8B8A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E136CBF2234B3995001B8B8A /* LaunchViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewOutput.swift; sourceTree = "<group>"; };
 		E136CBF4234B39DB001B8B8A /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
+		E136CBF7234B4153001B8B8A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		EA3C5557F522A82AF1D996FC /* Pods-Demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 		E136CBCB234B3578001B8B8A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E136CBF7234B4153001B8B8A /* R.generated.swift */,
 				E136CBD6234B35F7001B8B8A /* Constants */,
 				E136CBD5234B35F1001B8B8A /* Fonts */,
 				E136CBD4234B35EB001B8B8A /* Images+Colors */,
@@ -473,6 +476,7 @@
 			files = (
 				E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */,
 				E136CBE9234B3899001B8B8A /* LaunchModuleConfigurator.swift in Sources */,
+				E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */,
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
