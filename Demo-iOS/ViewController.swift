@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Demo-iOS
 //
-//  Created by Andreas on 07/10/2019.
+//  Created by ltblueberry on 07/10/2019.
 //  Copyright © 2019 ltblueberry. All rights reserved.
 //
 
@@ -15,6 +15,4 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
-

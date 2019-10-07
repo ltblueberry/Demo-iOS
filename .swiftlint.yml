@@ -1,0 +1,85 @@
+disabled_rules:
+  - private_outlet
+  - vertical_parameter_alignment_on_call
+  - vertical_parameter_alignment
+  - closure_parameter_position
+
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - private_outlet
+  - operator_usage_whitespace
+  - closure_end_indentation
+  - first_where
+  - prohibited_super_call
+  - fatal_error_message
+  - unneeded_parentheses_in_closure_argument
+  - pattern_matching_keywords
+  - array_init
+  - literal_expression_end_indentation
+  - joined_default_parameter
+  - contains_over_first_not_nil
+  - override_in_extension
+  - private_action
+  - sorted_first_last
+
+warning_threshold: 1
+
+line_length: 300
+
+type_body_length:
+  - 250 # warning
+  - 300 # error (должно быть 300)
+
+file_length:
+  warning: 300 # warning
+  error: 400 # error (должно быть 400)
+
+identifier_name:
+  min_length:
+    warning: 3
+  max_length:
+    warning: 40
+  excluded:
+    - vm
+    - vc
+    - nc
+    - id
+    - URL
+    - nib
+    - i
+    - j
+    - url
+    - tab
+    - xib
+    - lat
+    - lng
+    - img
+    - len
+    - str
+    - nav
+    - day
+    - key
+    - map
+    - pin
+    - ad
+    - db
+    - tag
+    - faq
+    - x
+    - y
+    - to
+    - from
+    - vk
+
+nesting:
+  type_level: 3
+
+excluded:
+  - Carthage
+  - Pods
+  - Documents
+  - More Gifts/Resources/R.generated.swift
