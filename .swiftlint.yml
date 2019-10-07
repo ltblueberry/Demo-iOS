@@ -82,4 +82,4 @@ excluded:
   - Carthage
   - Pods
   - Documents
-  - More Gifts/Resources/R.generated.swift
+  - Demo-iOS/Resources/R.generated.swift
