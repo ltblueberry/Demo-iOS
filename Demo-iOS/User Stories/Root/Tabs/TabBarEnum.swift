@@ -16,7 +16,9 @@ public enum TabBarEnum: Int {
     func setupModule() -> UIViewController {
         switch self {
         case .networking:
-            return UIViewController()
+            let configurator = NetworkingModuleConfigurator()
+            let module = configurator.configure()
+            return module
         case .realm:
             return UIViewController()
         }
