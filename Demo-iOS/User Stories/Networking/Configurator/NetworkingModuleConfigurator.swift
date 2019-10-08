@@ -17,12 +17,15 @@ final class NetworkingModuleConfigurator {
 
         let presenter = NetworkingPresenter()
         let router = NetworkingRouter()
+        let adapter = NetworkingAdapter()
 
+        adapter.output = presenter
         presenter.view = view
         presenter.router = router
         presenter.output = output
         router.view = view
         view.output = presenter
+        view.adapter = adapter
 
         return view
     }

@@ -6,7 +6,7 @@
 //  Copyright © 2019 ltblueberry. All rights reserved.
 //
 
-final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput {
+final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput, NetworkingAdapterOutput {
 
     // MARK: - Properties
 
@@ -16,7 +16,16 @@ final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput {
 
     // MARK: - NetworkingViewOutput
 
-    func viewDidLoad() {}
+    func viewDidLoad() {
+
+        view?.reload(items: [1, 2, 3, 4, 5])
+    }
+
+    // MARK: - NetworkingAdapterOutput
+
+    func didSelect(item: Any) {
+        print(item)
+    }
 
     // MARK: - NetworkingModuleInput
 }

@@ -34,6 +34,15 @@
 		E1377DFE234C82040039B9BD /* NetworkingRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1377DFD234C82040039B9BD /* NetworkingRouterInput.swift */; };
 		E1377E00234C820D0039B9BD /* NetworkingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1377DFF234C820D0039B9BD /* NetworkingRouter.swift */; };
 		E1377E02234C821E0039B9BD /* NetworkingModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1377E01234C821E0039B9BD /* NetworkingModuleConfigurator.swift */; };
+		E15995E0234C8E82003346B8 /* UITableView+RegisterCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995DF234C8E82003346B8 /* UITableView+RegisterCells.swift */; };
+		E15995E3234C900E003346B8 /* NetworkingAdapterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E2234C900E003346B8 /* NetworkingAdapterOutput.swift */; };
+		E15995E5234C9015003346B8 /* NetworkingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E4234C9015003346B8 /* NetworkingAdapter.swift */; };
+		E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E6234C905A003346B8 /* AdapterProtocol.swift */; };
+		E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E8234C90FD003346B8 /* Collection+Subscript.swift */; };
+		E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */; };
+		E196B857234C87D200446CA6 /* CodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B856234C87D200446CA6 /* CodeCell.swift */; };
+		E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B858234C88FB00446CA6 /* UIView+Anchors.swift */; };
+		E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */; };
 		E4B09A3F1279209ACE3E4DC3 /* Pods_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A2BDA937C77E563ADAA398 /* Pods_Demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +80,15 @@
 		E1377DFD234C82040039B9BD /* NetworkingRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingRouterInput.swift; sourceTree = "<group>"; };
 		E1377DFF234C820D0039B9BD /* NetworkingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingRouter.swift; sourceTree = "<group>"; };
 		E1377E01234C821E0039B9BD /* NetworkingModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModuleConfigurator.swift; sourceTree = "<group>"; };
+		E15995DF234C8E82003346B8 /* UITableView+RegisterCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCells.swift"; sourceTree = "<group>"; };
+		E15995E2234C900E003346B8 /* NetworkingAdapterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAdapterOutput.swift; sourceTree = "<group>"; };
+		E15995E4234C9015003346B8 /* NetworkingAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAdapter.swift; sourceTree = "<group>"; };
+		E15995E6234C905A003346B8 /* AdapterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterProtocol.swift; sourceTree = "<group>"; };
+		E15995E8234C90FD003346B8 /* Collection+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Subscript.swift"; sourceTree = "<group>"; };
+		E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
+		E196B856234C87D200446CA6 /* CodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCell.swift; sourceTree = "<group>"; };
+		E196B858234C88FB00446CA6 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWithBorder.swift; sourceTree = "<group>"; };
 		EA3C5557F522A82AF1D996FC /* Pods-Demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +296,10 @@
 		E136CBE1234B36EC001B8B8A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E196B858234C88FB00446CA6 /* UIView+Anchors.swift */,
+				E15995DF234C8E82003346B8 /* UITableView+RegisterCells.swift */,
+				E15995E8234C90FD003346B8 /* Collection+Subscript.swift */,
+				E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -285,6 +307,7 @@
 		E136CBE2234B36FA001B8B8A /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				E15995E6234C905A003346B8 /* AdapterProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -292,6 +315,8 @@
 		E136CBE3234B3700001B8B8A /* Reusable Layer */ = {
 			isa = PBXGroup;
 			children = (
+				E196B85C234C8C2C00446CA6 /* UIViewWithBorder */,
+				E196B853234C879D00446CA6 /* Table View Cells */,
 			);
 			path = "Reusable Layer";
 			sourceTree = "<group>";
@@ -367,6 +392,7 @@
 		E1377DEC234C81530039B9BD /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E15995E1234C8F71003346B8 /* Adapter */,
 				E1377DF0234C81740039B9BD /* Configurator */,
 				E1377DEF234C816D0039B9BD /* Router */,
 				E1377DEE234C81670039B9BD /* Presenter */,
@@ -410,6 +436,47 @@
 				E1377E01234C821E0039B9BD /* NetworkingModuleConfigurator.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E15995E1234C8F71003346B8 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				E15995E4234C9015003346B8 /* NetworkingAdapter.swift */,
+				E15995E2234C900E003346B8 /* NetworkingAdapterOutput.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		E196B853234C879D00446CA6 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E196B855234C87BF00446CA6 /* XibCell */,
+				E196B854234C87A900446CA6 /* CodeCell */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		E196B854234C87A900446CA6 /* CodeCell */ = {
+			isa = PBXGroup;
+			children = (
+				E196B856234C87D200446CA6 /* CodeCell.swift */,
+			);
+			path = CodeCell;
+			sourceTree = "<group>";
+		};
+		E196B855234C87BF00446CA6 /* XibCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XibCell;
+			sourceTree = "<group>";
+		};
+		E196B85C234C8C2C00446CA6 /* UIViewWithBorder */ = {
+			isa = PBXGroup;
+			children = (
+				E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */,
+			);
+			path = UIViewWithBorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,9 +656,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */,
+				E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */,
 				E136CBE9234B3899001B8B8A /* LaunchModuleConfigurator.swift in Sources */,
 				E1377DF8234C81C30039B9BD /* NetworkingPresenter.swift in Sources */,
+				E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */,
+				E15995E5234C9015003346B8 /* NetworkingAdapter.swift in Sources */,
 				E1377DFA234C81E20039B9BD /* NetworkingModuleInput.swift in Sources */,
+				E196B857234C87D200446CA6 /* CodeCell.swift in Sources */,
 				E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */,
 				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
 				E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */,
@@ -601,15 +672,20 @@
 				E1377E00234C820D0039B9BD /* NetworkingRouter.swift in Sources */,
 				E1377DF4234C81970039B9BD /* NetworkingViewInput.swift in Sources */,
 				E1377DFC234C81F30039B9BD /* NetworkingModuleOutput.swift in Sources */,
+				E15995E3234C900E003346B8 /* NetworkingAdapterOutput.swift in Sources */,
 				E1377E02234C821E0039B9BD /* NetworkingModuleConfigurator.swift in Sources */,
 				E136CC01234B45D5001B8B8A /* TabBarViewModel.swift in Sources */,
+				E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */,
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
 				E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */,
+				E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */,
+				E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
 				E136CBEB234B38CC001B8B8A /* LaunchRouterInput.swift in Sources */,
 				E136CBF1234B394C001B8B8A /* LaunchViewController.swift in Sources */,
 				E136CBD0234B35A9001B8B8A /* ModuleTransitionable.swift in Sources */,
+				E15995E0234C8E82003346B8 /* UITableView+RegisterCells.swift in Sources */,
 				E1377DF6234C81A20039B9BD /* NetworkingViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

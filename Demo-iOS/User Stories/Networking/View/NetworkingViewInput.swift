@@ -8,4 +8,6 @@
 
 import Foundation
 
-protocol NetworkingViewInput: AnyObject {}
+protocol NetworkingViewInput: AnyObject {
+    func reload(items: [Any])
+}
