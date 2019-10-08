@@ -32,8 +32,7 @@ public enum TabBarEnum: Int {
     }
 
     func getIcon() -> UIImage? {
-        // I have no free icons :P
-        return nil
+        return R.image.tabItemIcon()
     }
 
     func needNavigation() -> Bool {

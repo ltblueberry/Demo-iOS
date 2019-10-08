@@ -16,7 +16,7 @@ final class RootModuleConfigurator {
         let tabBarController = RootViewController()
         tabBarController.tabBar.tintColor = UIColor.systemBlue
         tabBarController.tabBar.barTintColor = UIColor.white
-        tabBarController.tabBar.unselectedItemTintColor = UIColor.secondarySystemFill
+        tabBarController.tabBar.unselectedItemTintColor = UIColor.systemGray
         tabBarController.tabBar.isTranslucent = true
 
         var rootControllers: [UIViewController] = []

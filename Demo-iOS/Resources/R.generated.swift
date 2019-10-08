@@ -16,6 +16,19 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
+  /// This `R.image` struct is generated, and contains static references to 1 images.
+  struct image {
+    /// Image `TabItemIcon`.
+    static let tabItemIcon = Rswift.ImageResource(bundle: R.hostingBundle, name: "TabItemIcon")
+    
+    /// `UIImage(named: "TabItemIcon", bundle: ..., traitCollection: ...)`
+    static func tabItemIcon(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.tabItemIcon, compatibleWith: traitCollection)
+    }
+    
+    fileprivate init() {}
+  }
+  
   /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
   struct storyboard {
     /// Storyboard `LaunchScreen`.
