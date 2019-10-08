@@ -6,7 +6,9 @@
   Copyright © 2019 ltblueberry. All rights reserved.
 */
 
-"helloWorld" = "Привет Мир!";
-
+// Tab Bar Items
 "tabTitle.networking" = "Работа с сетью";
 "tabTitle.realm" = "Работа с БД";
+
+// Networking Module
+"networkingModule.navigationTitle" = "Работа с сетью";

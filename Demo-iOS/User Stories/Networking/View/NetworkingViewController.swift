@@ -24,6 +24,8 @@ final class NetworkingViewController: UIViewController, NetworkingViewInput, Mod
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        configureBackButton()
+        setNavigationTitle(R.string.localizable.networkingModuleNavigationTitle())
         setupTableView()
 
         output?.viewDidLoad()

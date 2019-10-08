@@ -6,7 +6,10 @@
   Copyright © 2019 ltblueberry. All rights reserved.
 */
 
-"helloWorld" = "Hello World!";
-
+// Tab Bar Items
 "tabTitle.networking" = "Networking";
 "tabTitle.realm" = "RealmSwift";
+
+// Networking Module
+"networkingModule.navigationTitle" = "Networking";
+

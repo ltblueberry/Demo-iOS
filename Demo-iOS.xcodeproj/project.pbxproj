@@ -40,6 +40,7 @@
 		E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E6234C905A003346B8 /* AdapterProtocol.swift */; };
 		E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E8234C90FD003346B8 /* Collection+Subscript.swift */; };
 		E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */; };
+		E15995ED234C9771003346B8 /* UIViewController+ConfigureNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */; };
 		E196B857234C87D200446CA6 /* CodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B856234C87D200446CA6 /* CodeCell.swift */; };
 		E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B858234C88FB00446CA6 /* UIView+Anchors.swift */; };
 		E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */; };
@@ -86,6 +87,7 @@
 		E15995E6234C905A003346B8 /* AdapterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterProtocol.swift; sourceTree = "<group>"; };
 		E15995E8234C90FD003346B8 /* Collection+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Subscript.swift"; sourceTree = "<group>"; };
 		E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
+		E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ConfigureNavigation.swift"; sourceTree = "<group>"; };
 		E196B856234C87D200446CA6 /* CodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCell.swift; sourceTree = "<group>"; };
 		E196B858234C88FB00446CA6 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWithBorder.swift; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				E15995DF234C8E82003346B8 /* UITableView+RegisterCells.swift */,
 				E15995E8234C90FD003346B8 /* Collection+Subscript.swift */,
 				E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */,
+				E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -667,6 +670,7 @@
 				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
 				E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */,
 				E1377DF2234C818C0039B9BD /* NetworkingViewController.swift in Sources */,
+				E15995ED234C9771003346B8 /* UIViewController+ConfigureNavigation.swift in Sources */,
 				E1377DFE234C82040039B9BD /* NetworkingRouterInput.swift in Sources */,
 				E136CC04234B4650001B8B8A /* RootViewController.swift in Sources */,
 				E1377E00234C820D0039B9BD /* NetworkingRouter.swift in Sources */,
