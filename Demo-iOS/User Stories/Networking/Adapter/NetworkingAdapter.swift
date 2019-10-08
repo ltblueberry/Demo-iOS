@@ -12,7 +12,7 @@ import UIKit
 class NetworkingAdapter: NSObject, AdapterProtocol {
     // MARK: - Public Properties
 
-    public var items: [Any] = []
+    public var items: [ExampleResponse] = []
     public weak var output: NetworkingAdapterOutput?
 }
 
@@ -50,15 +50,14 @@ extension NetworkingAdapter {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let item = items[safe: indexPath.row] else { return UITableViewCell() }
-        print(item)
 
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CodeCell.nameOfClass, for: indexPath) as? CodeCell else {
             return UITableViewCell()
         }
 
-        cell.idLabel.text = "\(indexPath.row)"
-        cell.titleLabel.text = "Title \(indexPath.row)"
-        cell.bodyLabel.text = "\(indexPath)"
+        cell.idLabel.text = "\(item.id ?? 0)"
+        cell.titleLabel.text = "\(item.title ?? "")"
+        cell.bodyLabel.text = "\(item.body ?? "")"
 
         return cell
     }

@@ -13,3 +13,7 @@
 // Networking Module
 "networkingModule.navigationTitle" = "Networking";
 
+// Common
+"error" = "Error";
+"close" = "Close";
+"mappingError" = "Can't handle response data";

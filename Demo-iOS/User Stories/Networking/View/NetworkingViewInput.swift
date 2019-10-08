@@ -9,5 +9,8 @@
 import Foundation
 
 protocol NetworkingViewInput: AnyObject {
-    func reload(items: [Any])
+    func reload(items: [ExampleResponse])
+    func showHUD()
+    func hideHUD()
+    func showError(errorMessage: String)
 }

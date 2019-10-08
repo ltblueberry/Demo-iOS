@@ -8,5 +8,5 @@
 
 protocol NetworkingAdapterOutput: AnyObject {
     /// Notify that item has been selected
-    func didSelect(item: Any)
+    func didSelect(item: ExampleResponse)
 }

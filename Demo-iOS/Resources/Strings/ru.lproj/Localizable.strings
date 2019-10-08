@@ -12,3 +12,8 @@
 
 // Networking Module
 "networkingModule.navigationTitle" = "Работа с сетью";
+
+// Common
+"error" = "Ошибка";
+"close" = "Закрыть";
+"mappingError" = "Не удалось обработать полученные данные";

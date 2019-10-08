@@ -41,6 +41,10 @@
 		E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995E8234C90FD003346B8 /* Collection+Subscript.swift */; };
 		E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */; };
 		E15995ED234C9771003346B8 /* UIViewController+ConfigureNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */; };
+		E15995F1234C98CC003346B8 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F0234C98CC003346B8 /* AuthPlugin.swift */; };
+		E15995F4234C9956003346B8 /* ExampleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F3234C9956003346B8 /* ExampleApi.swift */; };
+		E15995F6234C9F1A003346B8 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F5234C9F1A003346B8 /* UIViewController+ShowAlert.swift */; };
+		E15995F8234CA0C5003346B8 /* ExampleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F7234CA0C5003346B8 /* ExampleResponse.swift */; };
 		E196B857234C87D200446CA6 /* CodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B856234C87D200446CA6 /* CodeCell.swift */; };
 		E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B858234C88FB00446CA6 /* UIView+Anchors.swift */; };
 		E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */; };
@@ -88,6 +92,10 @@
 		E15995E8234C90FD003346B8 /* Collection+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Subscript.swift"; sourceTree = "<group>"; };
 		E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
 		E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ConfigureNavigation.swift"; sourceTree = "<group>"; };
+		E15995F0234C98CC003346B8 /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		E15995F3234C9956003346B8 /* ExampleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApi.swift; sourceTree = "<group>"; };
+		E15995F5234C9F1A003346B8 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		E15995F7234CA0C5003346B8 /* ExampleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleResponse.swift; sourceTree = "<group>"; };
 		E196B856234C87D200446CA6 /* CodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCell.swift; sourceTree = "<group>"; };
 		E196B858234C88FB00446CA6 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWithBorder.swift; sourceTree = "<group>"; };
@@ -166,6 +174,7 @@
 		E136CBC8234B3560001B8B8A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E15995EE234C98A5003346B8 /* Networking */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +300,7 @@
 		E136CBE0234B3697001B8B8A /* Responses */ = {
 			isa = PBXGroup;
 			children = (
+				E15995F7234CA0C5003346B8 /* ExampleResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -303,6 +313,7 @@
 				E15995E8234C90FD003346B8 /* Collection+Subscript.swift */,
 				E15995EA234C913C003346B8 /* NSObject+NameOfClass.swift */,
 				E15995EC234C9771003346B8 /* UIViewController+ConfigureNavigation.swift */,
+				E15995F5234C9F1A003346B8 /* UIViewController+ShowAlert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -448,6 +459,31 @@
 				E15995E2234C900E003346B8 /* NetworkingAdapterOutput.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		E15995EE234C98A5003346B8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E15995F2234C9949003346B8 /* Api */,
+				E15995EF234C98B3003346B8 /* Plugins */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E15995EF234C98B3003346B8 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E15995F0234C98CC003346B8 /* AuthPlugin.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		E15995F2234C9949003346B8 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E15995F3234C9956003346B8 /* ExampleApi.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 		E196B853234C879D00446CA6 /* Table View Cells */ = {
@@ -660,11 +696,14 @@
 			files = (
 				E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */,
 				E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */,
+				E15995F1234C98CC003346B8 /* AuthPlugin.swift in Sources */,
 				E136CBE9234B3899001B8B8A /* LaunchModuleConfigurator.swift in Sources */,
 				E1377DF8234C81C30039B9BD /* NetworkingPresenter.swift in Sources */,
 				E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */,
+				E15995F8234CA0C5003346B8 /* ExampleResponse.swift in Sources */,
 				E15995E5234C9015003346B8 /* NetworkingAdapter.swift in Sources */,
 				E1377DFA234C81E20039B9BD /* NetworkingModuleInput.swift in Sources */,
+				E15995F6234C9F1A003346B8 /* UIViewController+ShowAlert.swift in Sources */,
 				E196B857234C87D200446CA6 /* CodeCell.swift in Sources */,
 				E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */,
 				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
@@ -682,6 +721,7 @@
 				E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */,
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
+				E15995F4234C9956003346B8 /* ExampleApi.swift in Sources */,
 				E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */,
 				E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */,
 				E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */,

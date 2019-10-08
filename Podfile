@@ -11,4 +11,7 @@ target 'Demo-iOS' do
   pod 'SwiftFormat/CLI'
   pod 'R.swift'
   
+  pod 'Moya', '~> 13.0'
+  pod 'SVProgressHUD'
+  
 end

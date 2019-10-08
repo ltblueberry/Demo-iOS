@@ -56,8 +56,20 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localizable` struct is generated, and contains static references to 3 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 6 localization keys.
     struct localizable {
+      /// en translation: Can't handle response data
+      /// 
+      /// Locales: en, ru
+      static let mappingError = Rswift.StringResource(key: "mappingError", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: Close
+      /// 
+      /// Locales: en, ru
+      static let close = Rswift.StringResource(key: "close", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: Error
+      /// 
+      /// Locales: en, ru
+      static let error = Rswift.StringResource(key: "error", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
       /// en translation: Networking
       /// 
       /// Locales: en, ru
@@ -70,6 +82,27 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ru
       static let tabTitleRealm = Rswift.StringResource(key: "tabTitle.realm", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      
+      /// en translation: Can't handle response data
+      /// 
+      /// Locales: en, ru
+      static func mappingError(_: Void = ()) -> String {
+        return NSLocalizedString("mappingError", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Close
+      /// 
+      /// Locales: en, ru
+      static func close(_: Void = ()) -> String {
+        return NSLocalizedString("close", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Error
+      /// 
+      /// Locales: en, ru
+      static func error(_: Void = ()) -> String {
+        return NSLocalizedString("error", bundle: R.hostingBundle, comment: "")
+      }
       
       /// en translation: Networking
       /// 

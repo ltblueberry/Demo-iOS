@@ -1,28 +1,46 @@
 PODS:
+  - Alamofire (4.9.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
   - R.swift (5.0.3):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.1)
+  - Result (4.1.0)
+  - SVProgressHUD (2.2.5)
   - SwiftFormat/CLI (0.40.12)
   - SwiftLint (0.35.0)
 
 DEPENDENCIES:
+  - Moya (~> 13.0)
   - R.swift
+  - SVProgressHUD
   - SwiftFormat/CLI
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
     - R.swift
     - R.swift.Library
+    - Result
+    - SVProgressHUD
     - SwiftFormat
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftFormat: 73667bbb741386b0febf0bd1a1b8c502aa9d1c98
   SwiftLint: 5553187048b900c91aa03552807681bb6b027846
 
-PODFILE CHECKSUM: 5e232094ce551fb3f584c3fe1f18e536623f6cff
+PODFILE CHECKSUM: 8980dfdf595cac2a83c589afea3d60282f0bb92a
 
 COCOAPODS: 1.7.5

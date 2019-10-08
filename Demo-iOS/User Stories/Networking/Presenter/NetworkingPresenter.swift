@@ -6,6 +6,8 @@
 //  Copyright © 2019 ltblueberry. All rights reserved.
 //
 
+import Moya
+
 final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput, NetworkingAdapterOutput {
 
     // MARK: - Properties
@@ -14,18 +16,42 @@ final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput, Ne
     var router: NetworkingRouterInput?
     var output: NetworkingModuleOutput?
 
+    // MARK: - Private Properties
+    private let exampleApiProvider = MoyaProvider<ExampleApi>(plugins: [NetworkLoggerPlugin(verbose: true)])
+
     // MARK: - NetworkingViewOutput
 
     func viewDidLoad() {
-
-        view?.reload(items: [1, 2, 3, 4, 5])
+        view?.showHUD()
+        exampleApiProvider.request(.example) { [weak self] result in
+            self?.view?.hideHUD()
+            switch result {
+            case let .success(moyaResponse):
+                self?.exampleSuccessCompletion(response: moyaResponse)
+            case let .failure(moyaError):
+                self?.exampleFailureCompletion(error: moyaError)
+            }
+        }
     }
 
     // MARK: - NetworkingAdapterOutput
 
-    func didSelect(item: Any) {
+    func didSelect(item: ExampleResponse) {
         print(item)
     }
 
-    // MARK: - NetworkingModuleInput
+    // MARK: - Moya Reqeusts Completions
+
+    private func exampleSuccessCompletion(response: Response) {
+        do {
+            let data = try response.map([ExampleResponse].self)
+            view?.reload(items: data)
+        } catch {
+            view?.showError(errorMessage: R.string.localizable.mappingError())
+        }
+    }
+
+    private func exampleFailureCompletion(error: MoyaError) {
+        view?.showError(errorMessage: error.localizedDescription)
+    }
 }

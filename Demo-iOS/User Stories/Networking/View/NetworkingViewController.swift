@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SVProgressHUD
 
 final class NetworkingViewController: UIViewController, NetworkingViewInput, ModuleTransitionable {
     // MARK: - Outlets
@@ -33,9 +34,17 @@ final class NetworkingViewController: UIViewController, NetworkingViewInput, Mod
 
     // MARK: - NetworkingViewInput
 
-    func reload(items: [Any]) {
+    func reload(items: [ExampleResponse]) {
         adapter?.items = items
         tableView.reloadData()
+    }
+
+    func showHUD() {
+        SVProgressHUD.show()
+    }
+
+    func hideHUD() {
+        SVProgressHUD.dismiss()
     }
 
     // MARK: - Private Methods
