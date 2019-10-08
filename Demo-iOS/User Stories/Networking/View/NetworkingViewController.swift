@@ -63,7 +63,7 @@ final class NetworkingViewController: UIViewController, NetworkingViewInput, Mod
         tableView.backgroundColor = UIColor.secondarySystemBackground
         tableView.separatorStyle = .none
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 100.0
+        tableView.estimatedRowHeight = 100
 
         tableView.delegate = adapter
         tableView.dataSource = adapter

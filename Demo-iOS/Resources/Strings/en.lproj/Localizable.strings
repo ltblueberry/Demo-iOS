@@ -13,6 +13,11 @@
 // Networking Module
 "networkingModule.navigationTitle" = "Networking";
 
+// CodeCell
+"codeCell.unknownID" = "Unknown ID";
+"codeCell.unknownTitle" = "Unknown Title";
+"codeCell.unknownBody" = "Unknown Body";
+
 // Common
 "error" = "Error";
 "close" = "Close";

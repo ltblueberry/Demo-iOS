@@ -56,7 +56,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localizable` struct is generated, and contains static references to 6 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 9 localization keys.
     struct localizable {
       /// en translation: Can't handle response data
       /// 
@@ -82,6 +82,18 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ru
       static let tabTitleRealm = Rswift.StringResource(key: "tabTitle.realm", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: Unknown Body
+      /// 
+      /// Locales: en, ru
+      static let codeCellUnknownBody = Rswift.StringResource(key: "codeCell.unknownBody", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: Unknown ID
+      /// 
+      /// Locales: en, ru
+      static let codeCellUnknownID = Rswift.StringResource(key: "codeCell.unknownID", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: Unknown Title
+      /// 
+      /// Locales: en, ru
+      static let codeCellUnknownTitle = Rswift.StringResource(key: "codeCell.unknownTitle", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
       
       /// en translation: Can't handle response data
       /// 
@@ -123,6 +135,27 @@ struct R: Rswift.Validatable {
       /// Locales: en, ru
       static func tabTitleRealm(_: Void = ()) -> String {
         return NSLocalizedString("tabTitle.realm", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Unknown Body
+      /// 
+      /// Locales: en, ru
+      static func codeCellUnknownBody(_: Void = ()) -> String {
+        return NSLocalizedString("codeCell.unknownBody", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Unknown ID
+      /// 
+      /// Locales: en, ru
+      static func codeCellUnknownID(_: Void = ()) -> String {
+        return NSLocalizedString("codeCell.unknownID", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Unknown Title
+      /// 
+      /// Locales: en, ru
+      static func codeCellUnknownTitle(_: Void = ()) -> String {
+        return NSLocalizedString("codeCell.unknownTitle", bundle: R.hostingBundle, comment: "")
       }
       
       fileprivate init() {}

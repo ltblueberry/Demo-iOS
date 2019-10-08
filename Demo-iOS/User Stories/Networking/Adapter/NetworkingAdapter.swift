@@ -55,11 +55,7 @@ extension NetworkingAdapter {
             return UITableViewCell()
         }
 
-        cell.idLabel.text = "\(item.id ?? 0)"
-        cell.titleLabel.text = "\(item.title ?? "")"
-        cell.bodyLabel.text = "\(item.body ?? "")"
-
-        return cell
+        return MappedCodeCell(cell, withModel: item).cell
     }
 
 }

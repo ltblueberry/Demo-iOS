@@ -45,6 +45,7 @@
 		E15995F4234C9956003346B8 /* ExampleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F3234C9956003346B8 /* ExampleApi.swift */; };
 		E15995F6234C9F1A003346B8 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F5234C9F1A003346B8 /* UIViewController+ShowAlert.swift */; };
 		E15995F8234CA0C5003346B8 /* ExampleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995F7234CA0C5003346B8 /* ExampleResponse.swift */; };
+		E15995FB234CA2FC003346B8 /* MappedCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15995FA234CA2FC003346B8 /* MappedCodeCell.swift */; };
 		E196B857234C87D200446CA6 /* CodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B856234C87D200446CA6 /* CodeCell.swift */; };
 		E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B858234C88FB00446CA6 /* UIView+Anchors.swift */; };
 		E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */; };
@@ -96,6 +97,7 @@
 		E15995F3234C9956003346B8 /* ExampleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApi.swift; sourceTree = "<group>"; };
 		E15995F5234C9F1A003346B8 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
 		E15995F7234CA0C5003346B8 /* ExampleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleResponse.swift; sourceTree = "<group>"; };
+		E15995FA234CA2FC003346B8 /* MappedCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedCodeCell.swift; sourceTree = "<group>"; };
 		E196B856234C87D200446CA6 /* CodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCell.swift; sourceTree = "<group>"; };
 		E196B858234C88FB00446CA6 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWithBorder.swift; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 			isa = PBXGroup;
 			children = (
 				E196B856234C87D200446CA6 /* CodeCell.swift */,
+				E15995FA234CA2FC003346B8 /* MappedCodeCell.swift */,
 			);
 			path = CodeCell;
 			sourceTree = "<group>";
@@ -727,6 +730,7 @@
 				E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
 				E136CBEB234B38CC001B8B8A /* LaunchRouterInput.swift in Sources */,
+				E15995FB234CA2FC003346B8 /* MappedCodeCell.swift in Sources */,
 				E136CBF1234B394C001B8B8A /* LaunchViewController.swift in Sources */,
 				E136CBD0234B35A9001B8B8A /* ModuleTransitionable.swift in Sources */,
 				E15995E0234C8E82003346B8 /* UITableView+RegisterCells.swift in Sources */,

@@ -13,6 +13,11 @@
 // Networking Module
 "networkingModule.navigationTitle" = "Работа с сетью";
 
+// CodeCell
+"codeCell.unknownID" = "Неизвестный ID";
+"codeCell.unknownTitle" = "Неизвестный заголовок";
+"codeCell.unknownBody" = "Неизвестный текст";
+
 // Common
 "error" = "Ошибка";
 "close" = "Закрыть";
