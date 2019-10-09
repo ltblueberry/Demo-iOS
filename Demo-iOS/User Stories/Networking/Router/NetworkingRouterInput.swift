@@ -6,4 +6,6 @@
 //  Copyright © 2019 ltblueberry. All rights reserved.
 //
 
-protocol NetworkingRouterInput {}
+protocol NetworkingRouterInput {
+     func presentDetailModule(model: ExampleResponse)
+}

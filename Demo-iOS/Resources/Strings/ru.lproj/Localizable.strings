@@ -22,3 +22,6 @@
 "error" = "Ошибка";
 "close" = "Закрыть";
 "mappingError" = "Не удалось обработать полученные данные";
+
+// Detail Module
+"detailModule.navigationTitle" = "Подробнее";

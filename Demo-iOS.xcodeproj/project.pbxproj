@@ -49,6 +49,15 @@
 		E196B857234C87D200446CA6 /* CodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B856234C87D200446CA6 /* CodeCell.swift */; };
 		E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B858234C88FB00446CA6 /* UIView+Anchors.swift */; };
 		E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */; };
+		E1EBF95F234DCD9D00A3E0C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF95E234DCD9D00A3E0C8 /* DetailViewController.swift */; };
+		E1EBF961234DCDA900A3E0C8 /* DetailViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF960234DCDA900A3E0C8 /* DetailViewInput.swift */; };
+		E1EBF963234DCDB400A3E0C8 /* DetailViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF962234DCDB400A3E0C8 /* DetailViewOutput.swift */; };
+		E1EBF965234DCDC500A3E0C8 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF964234DCDC500A3E0C8 /* DetailPresenter.swift */; };
+		E1EBF967234DCE1600A3E0C8 /* DetailModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF966234DCE1600A3E0C8 /* DetailModuleInput.swift */; };
+		E1EBF969234DCE2000A3E0C8 /* DetailModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF968234DCE2000A3E0C8 /* DetailModuleOutput.swift */; };
+		E1EBF96B234DCE2C00A3E0C8 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96A234DCE2C00A3E0C8 /* DetailRouter.swift */; };
+		E1EBF96D234DCE3700A3E0C8 /* DetailRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96C234DCE3700A3E0C8 /* DetailRouterInput.swift */; };
+		E1EBF96F234DCE4700A3E0C8 /* DetailModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */; };
 		E4B09A3F1279209ACE3E4DC3 /* Pods_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A2BDA937C77E563ADAA398 /* Pods_Demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +110,15 @@
 		E196B856234C87D200446CA6 /* CodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCell.swift; sourceTree = "<group>"; };
 		E196B858234C88FB00446CA6 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		E196B85A234C8C1000446CA6 /* UIViewWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewWithBorder.swift; sourceTree = "<group>"; };
+		E1EBF95E234DCD9D00A3E0C8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E1EBF960234DCDA900A3E0C8 /* DetailViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewInput.swift; sourceTree = "<group>"; };
+		E1EBF962234DCDB400A3E0C8 /* DetailViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewOutput.swift; sourceTree = "<group>"; };
+		E1EBF964234DCDC500A3E0C8 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		E1EBF966234DCE1600A3E0C8 /* DetailModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleInput.swift; sourceTree = "<group>"; };
+		E1EBF968234DCE2000A3E0C8 /* DetailModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleOutput.swift; sourceTree = "<group>"; };
+		E1EBF96A234DCE2C00A3E0C8 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		E1EBF96C234DCE3700A3E0C8 /* DetailRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouterInput.swift; sourceTree = "<group>"; };
+		E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleConfigurator.swift; sourceTree = "<group>"; };
 		EA3C5557F522A82AF1D996FC /* Pods-Demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +213,7 @@
 				E136CBD2234B35C3001B8B8A /* Launch */,
 				E136CBD1234B35B8001B8B8A /* Root */,
 				E1377DEC234C81530039B9BD /* Networking */,
+				E1EBF959234DCCC400A3E0C8 /* Detail */,
 			);
 			path = "User Stories";
 			sourceTree = "<group>";
@@ -521,6 +540,54 @@
 			path = UIViewWithBorder;
 			sourceTree = "<group>";
 		};
+		E1EBF959234DCCC400A3E0C8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF95D234DCD7900A3E0C8 /* Configurator */,
+				E1EBF95C234DCD6E00A3E0C8 /* Router */,
+				E1EBF95B234DCCDF00A3E0C8 /* Presenter */,
+				E1EBF95A234DCCD700A3E0C8 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E1EBF95A234DCCD700A3E0C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF95E234DCD9D00A3E0C8 /* DetailViewController.swift */,
+				E1EBF960234DCDA900A3E0C8 /* DetailViewInput.swift */,
+				E1EBF962234DCDB400A3E0C8 /* DetailViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1EBF95B234DCCDF00A3E0C8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF964234DCDC500A3E0C8 /* DetailPresenter.swift */,
+				E1EBF966234DCE1600A3E0C8 /* DetailModuleInput.swift */,
+				E1EBF968234DCE2000A3E0C8 /* DetailModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E1EBF95C234DCD6E00A3E0C8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF96A234DCE2C00A3E0C8 /* DetailRouter.swift */,
+				E1EBF96C234DCE3700A3E0C8 /* DetailRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E1EBF95D234DCD7900A3E0C8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -697,16 +764,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EBF95F234DCD9D00A3E0C8 /* DetailViewController.swift in Sources */,
 				E136CBF3234B3995001B8B8A /* LaunchViewOutput.swift in Sources */,
 				E15995E9234C90FD003346B8 /* Collection+Subscript.swift in Sources */,
 				E15995F1234C98CC003346B8 /* AuthPlugin.swift in Sources */,
 				E136CBE9234B3899001B8B8A /* LaunchModuleConfigurator.swift in Sources */,
+				E1EBF965234DCDC500A3E0C8 /* DetailPresenter.swift in Sources */,
 				E1377DF8234C81C30039B9BD /* NetworkingPresenter.swift in Sources */,
 				E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */,
 				E15995F8234CA0C5003346B8 /* ExampleResponse.swift in Sources */,
+				E1EBF963234DCDB400A3E0C8 /* DetailViewOutput.swift in Sources */,
 				E15995E5234C9015003346B8 /* NetworkingAdapter.swift in Sources */,
 				E1377DFA234C81E20039B9BD /* NetworkingModuleInput.swift in Sources */,
+				E1EBF967234DCE1600A3E0C8 /* DetailModuleInput.swift in Sources */,
+				E1EBF969234DCE2000A3E0C8 /* DetailModuleOutput.swift in Sources */,
 				E15995F6234C9F1A003346B8 /* UIViewController+ShowAlert.swift in Sources */,
+				E1EBF96B234DCE2C00A3E0C8 /* DetailRouter.swift in Sources */,
 				E196B857234C87D200446CA6 /* CodeCell.swift in Sources */,
 				E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */,
 				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
@@ -725,9 +798,12 @@
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
 				E15995F4234C9956003346B8 /* ExampleApi.swift in Sources */,
+				E1EBF96F234DCE4700A3E0C8 /* DetailModuleConfigurator.swift in Sources */,
 				E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */,
+				E1EBF961234DCDA900A3E0C8 /* DetailViewInput.swift in Sources */,
 				E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */,
 				E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */,
+				E1EBF96D234DCE3700A3E0C8 /* DetailRouterInput.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
 				E136CBEB234B38CC001B8B8A /* LaunchRouterInput.swift in Sources */,
 				E15995FB234CA2FC003346B8 /* MappedCodeCell.swift in Sources */,

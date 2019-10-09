@@ -37,7 +37,7 @@ final class NetworkingPresenter: NetworkingViewOutput, NetworkingModuleInput, Ne
     // MARK: - NetworkingAdapterOutput
 
     func didSelect(item: ExampleResponse) {
-        print(item)
+        router?.presentDetailModule(model: item)
     }
 
     // MARK: - Moya Reqeusts Completions

@@ -22,3 +22,6 @@
 "error" = "Error";
 "close" = "Close";
 "mappingError" = "Can't handle response data";
+
+// Detail Module
+"detailModule.navigationTitle" = "Detail";

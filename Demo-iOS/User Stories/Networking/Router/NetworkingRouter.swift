@@ -14,4 +14,12 @@ final class NetworkingRouter: NetworkingRouterInput {
     weak var view: ModuleTransitionable?
 
     // MARK: - NetworkingRouterInput
+
+    func presentDetailModule(model: ExampleResponse) {
+        let configurator = DetailModuleConfigurator()
+        let module = configurator.configure(model: model)
+        module.hidesBottomBarWhenPushed = true
+        view?.push(module: module, animated: true)
+    }
+
 }
