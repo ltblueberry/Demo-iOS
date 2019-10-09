@@ -14,4 +14,6 @@ target 'Demo-iOS' do
   pod 'Moya', '~> 13.0'
   pod 'SVProgressHUD'
   
+  pod 'RealmSwift', '~> 3.18.0'
+  
 end
