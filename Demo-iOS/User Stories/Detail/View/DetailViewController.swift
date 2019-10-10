@@ -63,15 +63,11 @@ final class DetailViewController: UIViewController, DetailViewInput, ModuleTrans
     // MARK: - DetailViewInput
 
     func update(with model: ExampleResponse) {
+        updateComponents(id: model.id, title: model.title, body: model.body)
+    }
 
-        if let id = model.id {
-            idLabel.text = "ID: \(id)"
-        } else {
-            idLabel.text = R.string.localizable.codeCellUnknownID()
-        }
-
-        titleLabel.text = model.title ?? R.string.localizable.codeCellUnknownTitle()
-        bodyLabel.text = model.body ?? R.string.localizable.codeCellUnknownBody()
+    func update(with model: ExampleEntity) {
+        updateComponents(id: model.id, title: model.title, body: model.body)
     }
 
     // MARK: - Private Methods
@@ -113,6 +109,17 @@ final class DetailViewController: UIViewController, DetailViewInput, ModuleTrans
         bodyLabel.setTrailing(to: scrollView.trailingAnchor, constant: -12)
         bodyLabel.setBottom(to: scrollView.bottomAnchor, constant: -8)
 
+    }
+
+    private func updateComponents(id: Int?, title: String?, body: String?) {
+        if let id = id {
+            idLabel.text = "ID: \(id)"
+        } else {
+            idLabel.text = R.string.localizable.codeCellUnknownID()
+        }
+
+        titleLabel.text = title ?? R.string.localizable.codeCellUnknownTitle()
+        bodyLabel.text = body ?? R.string.localizable.codeCellUnknownBody()
     }
 
 }

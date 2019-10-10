@@ -33,7 +33,9 @@ final class DetailPresenter: DetailViewOutput, DetailModuleInput {
     func viewDidLoad() {
         if let model = response {
             view?.update(with: model)
-        } else if let model = entity {}
+        } else if let model = entity {
+            view?.update(with: model)
+        }
     }
 
 }

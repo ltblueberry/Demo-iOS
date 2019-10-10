@@ -10,4 +10,5 @@ import Foundation
 
 protocol DetailViewInput: AnyObject {
     func update(with model: ExampleResponse)
+    func update(with model: ExampleEntity)
 }
