@@ -20,7 +20,9 @@ public enum TabBarEnum: Int {
             let module = configurator.configure()
             return module
         case .realm:
-            return UIViewController()
+            let configurator = RealmModuleConfigurator()
+            let module = configurator.configure()
+            return module
         }
     }
 

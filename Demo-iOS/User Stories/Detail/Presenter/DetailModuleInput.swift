@@ -7,6 +7,9 @@
 //
 
 protocol DetailModuleInput: AnyObject {
-    /// Configure module with Example model
-    func configureModule(with model: ExampleResponse)
+    /// Configure module with ExampleResponse model
+    func configureModule(with response: ExampleResponse)
+
+    /// Configure module with ExampleEntity model
+    func configureModule(with entity: ExampleEntity)
 }

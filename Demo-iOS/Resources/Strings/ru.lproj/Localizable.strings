@@ -25,3 +25,6 @@
 
 // Detail Module
 "detailModule.navigationTitle" = "Подробнее";
+
+// RealmSwift Module
+"realmModule.navigationTitle" = "RealmSwift";

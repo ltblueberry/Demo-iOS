@@ -15,18 +15,25 @@ final class DetailPresenter: DetailViewOutput, DetailModuleInput {
     var output: DetailModuleOutput?
 
     // MARK: - Private Properties
-    private var model: ExampleResponse!
+    private var response: ExampleResponse?
+    private var entity: ExampleEntity?
 
     // MARK: - DetailModuleInput
 
-    func configureModule(with model: ExampleResponse) {
-        self.model = model
+    func configureModule(with response: ExampleResponse) {
+        self.response = response
+    }
+
+    func configureModule(with entity: ExampleEntity) {
+        self.entity = entity
     }
 
     // MARK: - DetailViewOutput
 
     func viewDidLoad() {
-        view?.update(with: model)
+        if let model = response {
+            view?.update(with: model)
+        } else if let model = entity {}
     }
 
 }

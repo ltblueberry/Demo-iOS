@@ -58,6 +58,25 @@
 		E1EBF96B234DCE2C00A3E0C8 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96A234DCE2C00A3E0C8 /* DetailRouter.swift */; };
 		E1EBF96D234DCE3700A3E0C8 /* DetailRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96C234DCE3700A3E0C8 /* DetailRouterInput.swift */; };
 		E1EBF96F234DCE4700A3E0C8 /* DetailModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */; };
+		E1EBF977234DDA3F00A3E0C8 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF976234DDA3F00A3E0C8 /* RealmViewController.swift */; };
+		E1EBF979234DDA4D00A3E0C8 /* RealmViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF978234DDA4D00A3E0C8 /* RealmViewInput.swift */; };
+		E1EBF97B234DDA5900A3E0C8 /* RealmViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF97A234DDA5900A3E0C8 /* RealmViewOutput.swift */; };
+		E1EBF97D234DDADD00A3E0C8 /* RealmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF97C234DDADD00A3E0C8 /* RealmPresenter.swift */; };
+		E1EBF97F234DDAED00A3E0C8 /* RealmModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF97E234DDAED00A3E0C8 /* RealmModuleInput.swift */; };
+		E1EBF981234DDAF900A3E0C8 /* RealmModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF980234DDAF900A3E0C8 /* RealmModuleOutput.swift */; };
+		E1EBF983234DDB8A00A3E0C8 /* RealmRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF982234DDB8A00A3E0C8 /* RealmRouter.swift */; };
+		E1EBF985234DDB9400A3E0C8 /* RealmRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF984234DDB9400A3E0C8 /* RealmRouterInput.swift */; };
+		E1EBF987234DDC1500A3E0C8 /* RealmModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF986234DDC1500A3E0C8 /* RealmModuleConfigurator.swift */; };
+		E1EBF989234DDCAB00A3E0C8 /* RealmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF988234DDCAB00A3E0C8 /* RealmAdapter.swift */; };
+		E1EBF98B234DDCC000A3E0C8 /* RealmAdapterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF98A234DDCC000A3E0C8 /* RealmAdapterOutput.swift */; };
+		E1EBF98D234DDDB700A3E0C8 /* ExampleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF98C234DDDB700A3E0C8 /* ExampleEntity.swift */; };
+		E1FE7D2D234F20FC008C28E5 /* XibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE7D2B234F20FC008C28E5 /* XibCell.swift */; };
+		E1FE7D2E234F20FC008C28E5 /* XibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FE7D2C234F20FC008C28E5 /* XibCell.xib */; };
+		E1FE7D30234F22D9008C28E5 /* MappedXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE7D2F234F22D9008C28E5 /* MappedXibCell.swift */; };
+		E1FE7D35234F2592008C28E5 /* RealmSeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE7D34234F2592008C28E5 /* RealmSeedService.swift */; };
+		E1FE7D37234F2874008C28E5 /* seeds.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1FE7D36234F2874008C28E5 /* seeds.csv */; };
+		E1FE7D39234F2A4F008C28E5 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE7D38234F2A4F008C28E5 /* UserDefaultsKeys.swift */; };
+		E1FE7D3B234F2BAF008C28E5 /* RealmViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FE7D3A234F2BAF008C28E5 /* RealmViewController.storyboard */; };
 		E4B09A3F1279209ACE3E4DC3 /* Pods_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A2BDA937C77E563ADAA398 /* Pods_Demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +138,25 @@
 		E1EBF96A234DCE2C00A3E0C8 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		E1EBF96C234DCE3700A3E0C8 /* DetailRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouterInput.swift; sourceTree = "<group>"; };
 		E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleConfigurator.swift; sourceTree = "<group>"; };
+		E1EBF976234DDA3F00A3E0C8 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		E1EBF978234DDA4D00A3E0C8 /* RealmViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewInput.swift; sourceTree = "<group>"; };
+		E1EBF97A234DDA5900A3E0C8 /* RealmViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewOutput.swift; sourceTree = "<group>"; };
+		E1EBF97C234DDADD00A3E0C8 /* RealmPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPresenter.swift; sourceTree = "<group>"; };
+		E1EBF97E234DDAED00A3E0C8 /* RealmModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModuleInput.swift; sourceTree = "<group>"; };
+		E1EBF980234DDAF900A3E0C8 /* RealmModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModuleOutput.swift; sourceTree = "<group>"; };
+		E1EBF982234DDB8A00A3E0C8 /* RealmRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRouter.swift; sourceTree = "<group>"; };
+		E1EBF984234DDB9400A3E0C8 /* RealmRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRouterInput.swift; sourceTree = "<group>"; };
+		E1EBF986234DDC1500A3E0C8 /* RealmModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModuleConfigurator.swift; sourceTree = "<group>"; };
+		E1EBF988234DDCAB00A3E0C8 /* RealmAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAdapter.swift; sourceTree = "<group>"; };
+		E1EBF98A234DDCC000A3E0C8 /* RealmAdapterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAdapterOutput.swift; sourceTree = "<group>"; };
+		E1EBF98C234DDDB700A3E0C8 /* ExampleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEntity.swift; sourceTree = "<group>"; };
+		E1FE7D2B234F20FC008C28E5 /* XibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCell.swift; sourceTree = "<group>"; };
+		E1FE7D2C234F20FC008C28E5 /* XibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCell.xib; sourceTree = "<group>"; };
+		E1FE7D2F234F22D9008C28E5 /* MappedXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedXibCell.swift; sourceTree = "<group>"; };
+		E1FE7D34234F2592008C28E5 /* RealmSeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSeedService.swift; sourceTree = "<group>"; };
+		E1FE7D36234F2874008C28E5 /* seeds.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seeds.csv; sourceTree = "<group>"; };
+		E1FE7D38234F2A4F008C28E5 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		E1FE7D3A234F2BAF008C28E5 /* RealmViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RealmViewController.storyboard; sourceTree = "<group>"; };
 		EA3C5557F522A82AF1D996FC /* Pods-Demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-iOS/Pods-Demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				E15995EE234C98A5003346B8 /* Networking */,
+				E1FE7D33234F257B008C28E5 /* RealmSeedService */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -213,6 +252,7 @@
 				E136CBD2234B35C3001B8B8A /* Launch */,
 				E136CBD1234B35B8001B8B8A /* Root */,
 				E1377DEC234C81530039B9BD /* Networking */,
+				E1EBF970234DD9FC00A3E0C8 /* RealmSwift */,
 				E1EBF959234DCCC400A3E0C8 /* Detail */,
 			);
 			path = "User Stories";
@@ -221,6 +261,7 @@
 		E136CBCB234B3578001B8B8A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1FE7D36234F2874008C28E5 /* seeds.csv */,
 				E136CBF7234B4153001B8B8A /* R.generated.swift */,
 				E136CBD6234B35F7001B8B8A /* Constants */,
 				E136CBD5234B35F1001B8B8A /* Fonts */,
@@ -255,6 +296,7 @@
 				E136CBBC234B2DAD001B8B8A /* LaunchScreen.storyboard */,
 				E136CBB1234B2DAB001B8B8A /* AppDelegate.swift */,
 				E136CBBF234B2DAD001B8B8A /* Info.plist */,
+				E1FE7D38234F2A4F008C28E5 /* UserDefaultsKeys.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -314,6 +356,7 @@
 		E136CBDF234B367A001B8B8A /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				E1EBF98C234DDDB700A3E0C8 /* ExampleEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -528,6 +571,9 @@
 		E196B855234C87BF00446CA6 /* XibCell */ = {
 			isa = PBXGroup;
 			children = (
+				E1FE7D2B234F20FC008C28E5 /* XibCell.swift */,
+				E1FE7D2C234F20FC008C28E5 /* XibCell.xib */,
+				E1FE7D2F234F22D9008C28E5 /* MappedXibCell.swift */,
 			);
 			path = XibCell;
 			sourceTree = "<group>";
@@ -586,6 +632,73 @@
 				E1EBF96E234DCE4700A3E0C8 /* DetailModuleConfigurator.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E1EBF970234DD9FC00A3E0C8 /* RealmSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF975234DDA2100A3E0C8 /* Adapter */,
+				E1EBF974234DDA1A00A3E0C8 /* Configurator */,
+				E1EBF973234DDA1500A3E0C8 /* Router */,
+				E1EBF972234DDA0F00A3E0C8 /* Presenter */,
+				E1EBF971234DDA0700A3E0C8 /* View */,
+			);
+			path = RealmSwift;
+			sourceTree = "<group>";
+		};
+		E1EBF971234DDA0700A3E0C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF976234DDA3F00A3E0C8 /* RealmViewController.swift */,
+				E1FE7D3A234F2BAF008C28E5 /* RealmViewController.storyboard */,
+				E1EBF978234DDA4D00A3E0C8 /* RealmViewInput.swift */,
+				E1EBF97A234DDA5900A3E0C8 /* RealmViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1EBF972234DDA0F00A3E0C8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF97C234DDADD00A3E0C8 /* RealmPresenter.swift */,
+				E1EBF97E234DDAED00A3E0C8 /* RealmModuleInput.swift */,
+				E1EBF980234DDAF900A3E0C8 /* RealmModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E1EBF973234DDA1500A3E0C8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF982234DDB8A00A3E0C8 /* RealmRouter.swift */,
+				E1EBF984234DDB9400A3E0C8 /* RealmRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E1EBF974234DDA1A00A3E0C8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF986234DDC1500A3E0C8 /* RealmModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E1EBF975234DDA2100A3E0C8 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBF988234DDCAB00A3E0C8 /* RealmAdapter.swift */,
+				E1EBF98A234DDCC000A3E0C8 /* RealmAdapterOutput.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		E1FE7D33234F257B008C28E5 /* RealmSeedService */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE7D34234F2592008C28E5 /* RealmSeedService.swift */,
+			);
+			path = RealmSeedService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -653,8 +766,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E136CBF5234B39DB001B8B8A /* LaunchViewController.storyboard in Resources */,
+				E1FE7D37234F2874008C28E5 /* seeds.csv in Resources */,
+				E1FE7D3B234F2BAF008C28E5 /* RealmViewController.storyboard in Resources */,
 				E136CBBE234B2DAD001B8B8A /* LaunchScreen.storyboard in Resources */,
 				E136CBDB234B363F001B8B8A /* Localizable.strings in Resources */,
+				E1FE7D2E234F20FC008C28E5 /* XibCell.xib in Resources */,
 				E136CBBB234B2DAD001B8B8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -773,40 +889,56 @@
 				E1377DF8234C81C30039B9BD /* NetworkingPresenter.swift in Sources */,
 				E15995EB234C913C003346B8 /* NSObject+NameOfClass.swift in Sources */,
 				E15995F8234CA0C5003346B8 /* ExampleResponse.swift in Sources */,
+				E1EBF979234DDA4D00A3E0C8 /* RealmViewInput.swift in Sources */,
 				E1EBF963234DCDB400A3E0C8 /* DetailViewOutput.swift in Sources */,
+				E1EBF98D234DDDB700A3E0C8 /* ExampleEntity.swift in Sources */,
 				E15995E5234C9015003346B8 /* NetworkingAdapter.swift in Sources */,
 				E1377DFA234C81E20039B9BD /* NetworkingModuleInput.swift in Sources */,
 				E1EBF967234DCE1600A3E0C8 /* DetailModuleInput.swift in Sources */,
+				E1EBF985234DDB9400A3E0C8 /* RealmRouterInput.swift in Sources */,
 				E1EBF969234DCE2000A3E0C8 /* DetailModuleOutput.swift in Sources */,
+				E1FE7D30234F22D9008C28E5 /* MappedXibCell.swift in Sources */,
 				E15995F6234C9F1A003346B8 /* UIViewController+ShowAlert.swift in Sources */,
 				E1EBF96B234DCE2C00A3E0C8 /* DetailRouter.swift in Sources */,
+				E1EBF987234DDC1500A3E0C8 /* RealmModuleConfigurator.swift in Sources */,
 				E196B857234C87D200446CA6 /* CodeCell.swift in Sources */,
+				E1FE7D39234F2A4F008C28E5 /* UserDefaultsKeys.swift in Sources */,
 				E136CBFD234B43D3001B8B8A /* RootModuleConfigurator.swift in Sources */,
 				E136CC0B234B4840001B8B8A /* TabItemNavigationController.swift in Sources */,
 				E136CBF8234B4153001B8B8A /* R.generated.swift in Sources */,
 				E1377DF2234C818C0039B9BD /* NetworkingViewController.swift in Sources */,
+				E1EBF97D234DDADD00A3E0C8 /* RealmPresenter.swift in Sources */,
 				E15995ED234C9771003346B8 /* UIViewController+ConfigureNavigation.swift in Sources */,
+				E1EBF97F234DDAED00A3E0C8 /* RealmModuleInput.swift in Sources */,
 				E1377DFE234C82040039B9BD /* NetworkingRouterInput.swift in Sources */,
 				E136CC04234B4650001B8B8A /* RootViewController.swift in Sources */,
 				E1377E00234C820D0039B9BD /* NetworkingRouter.swift in Sources */,
 				E1377DF4234C81970039B9BD /* NetworkingViewInput.swift in Sources */,
+				E1EBF981234DDAF900A3E0C8 /* RealmModuleOutput.swift in Sources */,
 				E1377DFC234C81F30039B9BD /* NetworkingModuleOutput.swift in Sources */,
 				E15995E3234C900E003346B8 /* NetworkingAdapterOutput.swift in Sources */,
+				E1FE7D2D234F20FC008C28E5 /* XibCell.swift in Sources */,
 				E1377E02234C821E0039B9BD /* NetworkingModuleConfigurator.swift in Sources */,
 				E136CC01234B45D5001B8B8A /* TabBarViewModel.swift in Sources */,
+				E1EBF98B234DDCC000A3E0C8 /* RealmAdapterOutput.swift in Sources */,
 				E196B85B234C8C1000446CA6 /* UIViewWithBorder.swift in Sources */,
 				E136CBB2234B2DAB001B8B8A /* AppDelegate.swift in Sources */,
 				E136CBED234B38D5001B8B8A /* LaunchRouter.swift in Sources */,
 				E15995F4234C9956003346B8 /* ExampleApi.swift in Sources */,
+				E1FE7D35234F2592008C28E5 /* RealmSeedService.swift in Sources */,
 				E1EBF96F234DCE4700A3E0C8 /* DetailModuleConfigurator.swift in Sources */,
 				E136CBFF234B43E8001B8B8A /* TabBarEnum.swift in Sources */,
+				E1EBF977234DDA3F00A3E0C8 /* RealmViewController.swift in Sources */,
 				E1EBF961234DCDA900A3E0C8 /* DetailViewInput.swift in Sources */,
 				E196B859234C88FB00446CA6 /* UIView+Anchors.swift in Sources */,
 				E15995E7234C905A003346B8 /* AdapterProtocol.swift in Sources */,
 				E1EBF96D234DCE3700A3E0C8 /* DetailRouterInput.swift in Sources */,
+				E1EBF989234DDCAB00A3E0C8 /* RealmAdapter.swift in Sources */,
 				E136CBEF234B3937001B8B8A /* LaunchPresenter.swift in Sources */,
+				E1EBF983234DDB8A00A3E0C8 /* RealmRouter.swift in Sources */,
 				E136CBEB234B38CC001B8B8A /* LaunchRouterInput.swift in Sources */,
 				E15995FB234CA2FC003346B8 /* MappedCodeCell.swift in Sources */,
+				E1EBF97B234DDA5900A3E0C8 /* RealmViewOutput.swift in Sources */,
 				E136CBF1234B394C001B8B8A /* LaunchViewController.swift in Sources */,
 				E136CBD0234B35A9001B8B8A /* ModuleTransitionable.swift in Sources */,
 				E15995E0234C8E82003346B8 /* UITableView+RegisterCells.swift in Sources */,

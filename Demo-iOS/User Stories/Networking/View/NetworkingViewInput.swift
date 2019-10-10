@@ -6,8 +6,6 @@
 //  Copyright © 2019 ltblueberry. All rights reserved.
 //
 
-import Foundation
-
 protocol NetworkingViewInput: AnyObject {
     func reload(items: [ExampleResponse])
     func showHUD()

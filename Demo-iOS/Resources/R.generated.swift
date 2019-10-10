@@ -16,6 +16,20 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
+  /// This `R.file` struct is generated, and contains static references to 1 files.
+  struct file {
+    /// Resource file `seeds.csv`.
+    static let seedsCsv = Rswift.FileResource(bundle: R.hostingBundle, name: "seeds", pathExtension: "csv")
+    
+    /// `bundle.url(forResource: "seeds", withExtension: "csv")`
+    static func seedsCsv(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.seedsCsv
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    fileprivate init() {}
+  }
+  
   /// This `R.image` struct is generated, and contains static references to 1 images.
   struct image {
     /// Image `TabItemIcon`.
@@ -29,12 +43,32 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
+  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
+  struct nib {
+    /// Nib `XibCell`.
+    static let xibCell = _R.nib._XibCell()
+    
+    /// `UINib(name: "XibCell", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.xibCell) instead")
+    static func xibCell(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.xibCell)
+    }
+    
+    static func xibCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> XibCell? {
+      return R.nib.xibCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? XibCell
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.storyboard` struct is generated, and contains static references to 3 storyboards.
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
     /// Storyboard `LaunchViewController`.
     static let launchViewController = _R.storyboard.launchViewController()
+    /// Storyboard `RealmViewController`.
+    static let realmViewController = _R.storyboard.realmViewController()
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
@@ -44,6 +78,11 @@ struct R: Rswift.Validatable {
     /// `UIStoryboard(name: "LaunchViewController", bundle: ...)`
     static func launchViewController(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchViewController)
+    }
+    
+    /// `UIStoryboard(name: "RealmViewController", bundle: ...)`
+    static func realmViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.realmViewController)
     }
     
     fileprivate init() {}
@@ -56,7 +95,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localizable` struct is generated, and contains static references to 10 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 11 localization keys.
     struct localizable {
       /// en translation: Can't handle response data
       /// 
@@ -82,6 +121,10 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ru
       static let tabTitleNetworking = Rswift.StringResource(key: "tabTitle.networking", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
+      /// en translation: RealmSwift
+      /// 
+      /// Locales: en, ru
+      static let realmModuleNavigationTitle = Rswift.StringResource(key: "realmModule.navigationTitle", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "ru"], comment: nil)
       /// en translation: RealmSwift
       /// 
       /// Locales: en, ru
@@ -144,6 +187,13 @@ struct R: Rswift.Validatable {
       /// en translation: RealmSwift
       /// 
       /// Locales: en, ru
+      static func realmModuleNavigationTitle(_: Void = ()) -> String {
+        return NSLocalizedString("realmModule.navigationTitle", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: RealmSwift
+      /// 
+      /// Locales: en, ru
       static func tabTitleRealm(_: Void = ()) -> String {
         return NSLocalizedString("tabTitle.realm", bundle: R.hostingBundle, comment: "")
       }
@@ -193,10 +243,26 @@ struct _R: Rswift.Validatable {
     try storyboard.validate()
   }
   
+  struct nib {
+    struct _XibCell: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "XibCell"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> XibCell? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? XibCell
+      }
+      
+      fileprivate init() {}
+    }
+    
+    fileprivate init() {}
+  }
+  
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try launchScreen.validate()
       try launchViewController.validate()
+      try realmViewController.validate()
     }
     
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
@@ -218,6 +284,20 @@ struct _R: Rswift.Validatable {
       
       let bundle = R.hostingBundle
       let name = "LaunchViewController"
+      
+      static func validate() throws {
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct realmViewController: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = RealmViewController
+      
+      let bundle = R.hostingBundle
+      let name = "RealmViewController"
       
       static func validate() throws {
         if #available(iOS 11.0, *) {

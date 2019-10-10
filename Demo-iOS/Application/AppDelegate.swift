@@ -32,5 +32,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setupApplication(application _: UIApplication) {
         // For example, configure Firebase here...
         // FirebaseApp.configure()
+
+        // Add seeds to local DB
+        if !UserDefaults.standard.bool(forKey: UserDefaultsKeys.dbSeedsAdded.rawValue) {
+            let seedService = RealmSeedService()
+            seedService.fillDatabase()
+        }
     }
 }

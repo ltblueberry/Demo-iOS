@@ -11,7 +11,7 @@ import UIKit
 final class DetailModuleConfigurator {
     // MARK: - Internal methods
 
-    func configure(model: ExampleResponse, output: DetailModuleOutput? = nil) -> DetailViewController {
+    func configure(response: ExampleResponse, output: DetailModuleOutput? = nil) -> DetailViewController {
 
         let view = DetailViewController()
 
@@ -24,7 +24,25 @@ final class DetailModuleConfigurator {
         router.view = view
         view.output = presenter
 
-        presenter.configureModule(with: model)
+        presenter.configureModule(with: response)
+
+        return view
+    }
+
+    func configure(entity: ExampleEntity, output: DetailModuleOutput? = nil) -> DetailViewController {
+
+        let view = DetailViewController()
+
+        let presenter = DetailPresenter()
+        let router = DetailRouter()
+
+        presenter.view = view
+        presenter.router = router
+        presenter.output = output
+        router.view = view
+        view.output = presenter
+
+        presenter.configureModule(with: entity)
 
         return view
     }
