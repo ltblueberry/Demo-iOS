@@ -8,7 +8,9 @@
 
 import RealmSwift
 
+/// Example entity
 final class ExampleEntity: Object {
+
     @objc dynamic var id = 0
     @objc dynamic var title = ""
     @objc dynamic var body = ""

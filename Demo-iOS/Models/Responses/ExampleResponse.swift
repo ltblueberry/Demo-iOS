@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Example entity
 public struct ExampleResponse: Codable {
 
     var userId: Int?

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Cell with interface that made via xib
 final class XibCell: UITableViewCell {
     // MARK: - Outlets
 

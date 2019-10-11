@@ -29,6 +29,7 @@ final class LaunchViewController: UIViewController, ModuleTransitionable {
     }
 
     // MARK: - Private Methods
+
     private func setupVersionLabel() {
         versionLabel.text = getAppVersion()
     }

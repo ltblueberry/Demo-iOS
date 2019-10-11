@@ -8,6 +8,7 @@
 
 import RealmSwift
 
+/// Realm Seed Service that fill db with items from seeds file
 final class RealmSeedService {
 
     private var realm: Realm {
@@ -18,6 +19,7 @@ final class RealmSeedService {
         }
     }
 
+    /// Fill local database with seed items from file
     public func fillDatabase() {
 
         guard let csvUrl = R.file.seedsCsv() else {

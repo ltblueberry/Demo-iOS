@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Cell with interface that made programmatically
 final class CodeCell: UITableViewCell {
 
     public var containerView: UIViewWithBorder

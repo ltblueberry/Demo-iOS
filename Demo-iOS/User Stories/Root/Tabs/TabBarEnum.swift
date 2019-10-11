@@ -9,10 +9,13 @@
 import Foundation
 import UIKit
 
+/// Tab items enums
 public enum TabBarEnum: Int {
+
     case networking = 0
     case realm = 1
 
+    /// Get module view controller
     func setupModule() -> UIViewController {
         switch self {
         case .networking:
@@ -26,6 +29,7 @@ public enum TabBarEnum: Int {
         }
     }
 
+    /// Get tab item title
     func getTitle() -> String {
         switch self {
         case .networking:
@@ -35,18 +39,22 @@ public enum TabBarEnum: Int {
         }
     }
 
+    /// Get tab item icon
     func getIcon() -> UIImage? {
         return R.image.tabItemIcon()
     }
 
+    /// Does tab root controller needs navigation controller
     func needNavigation() -> Bool {
         return true
     }
 
+    /// Is tab item enabled
     func isEnabled() -> Bool {
         return true
     }
 
+    /// Returns configured tab item model
     func configure() -> TabBarViewModel {
         let title = getTitle()
         let image = getIcon()
@@ -57,6 +65,7 @@ public enum TabBarEnum: Int {
         return tab
     }
 
+    /// Returns array of configured tab item models
     static func getTabs() -> [TabBarViewModel] {
         var result: [TabBarViewModel] = []
         for index in 0 ... 1 {

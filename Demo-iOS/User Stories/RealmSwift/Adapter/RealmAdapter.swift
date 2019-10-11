@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// TableView adapter for Realm module
 class RealmAdapter: NSObject, AdapterProtocol {
     // MARK: - Public Properties
 

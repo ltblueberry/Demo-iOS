@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// Adapter protocol for User Stories modules with table view
 protocol AdapterProtocol: AnyObject, UITableViewDelegate, UITableViewDataSource {
     associatedtype Item
     var items: [Item] { get set }

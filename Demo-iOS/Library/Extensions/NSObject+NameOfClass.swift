@@ -9,10 +9,13 @@
 import Foundation
 
 extension NSObject {
+
+    /// Returns name of class
     var nameOfClass: String {
         return String(describing: type(of: self))
     }
 
+    /// Returns name of class
     class var nameOfClass: String {
         return String(describing: self)
     }

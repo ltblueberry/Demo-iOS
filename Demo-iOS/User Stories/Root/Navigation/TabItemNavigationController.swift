@@ -27,6 +27,7 @@ class TabItemNavigationController: UINavigationController {
         setupUI()
     }
 
+    /// Configure UI of navigation controller
     private func setupUI() {
         let foregroundColor = UIColor.systemBlue
         navigationBar.isTranslucent = false

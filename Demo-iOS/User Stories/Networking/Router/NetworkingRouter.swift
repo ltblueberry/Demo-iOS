@@ -15,6 +15,7 @@ final class NetworkingRouter: NetworkingRouterInput {
 
     // MARK: - NetworkingRouterInput
 
+    /// Method for transition to Detail module
     func presentDetailModule(model: ExampleResponse) {
         let configurator = DetailModuleConfigurator()
         let module = configurator.configure(response: model)

@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+ /// Tab item model
 class TabBarViewModel {
     var title: String
     var image: UIImage?

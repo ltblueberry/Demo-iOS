@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// TableView adapter for Networking module
 class NetworkingAdapter: NSObject, AdapterProtocol {
     // MARK: - Public Properties
 

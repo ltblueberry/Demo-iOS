@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// UIView with rounded thin border
 @IBDesignable
 class UIViewWithBorder: UIView {
     // MARK: Properties

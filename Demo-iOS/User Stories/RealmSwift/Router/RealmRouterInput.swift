@@ -7,5 +7,6 @@
 //
 
 protocol RealmRouterInput {
+    /// Method for transition to Detail module
      func presentDetailModule(model: ExampleEntity)
 }
