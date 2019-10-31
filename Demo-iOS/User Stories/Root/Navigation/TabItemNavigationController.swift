@@ -32,7 +32,7 @@ class TabItemNavigationController: UINavigationController {
         let foregroundColor = UIColor.systemBlue
         navigationBar.isTranslucent = false
         navigationBar.tintColor = foregroundColor
-        navigationBar.barTintColor = UIColor.white
+        navigationBar.barTintColor = UIColor.systemBackground
         navigationBar.titleTextAttributes = [.foregroundColor: foregroundColor, .font: defaultFont]
         if #available(iOS 11.0, *) {
             self.navigationBar.largeTitleTextAttributes = [.foregroundColor: foregroundColor, .font: defaultLargeFont]

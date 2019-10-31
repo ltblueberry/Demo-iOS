@@ -27,9 +27,9 @@ final class MappedCodeCell {
         cell.selectionStyle = .none
         cell.backgroundColor = UIColor.clear
         cell.contentView.backgroundColor = UIColor.clear
-        cell.containerView.backgroundColor = UIColor.white
+        cell.containerView.backgroundColor = UIColor.systemBackground
 
-        cell.idLabel.textColor = UIColor.lightGray
+        cell.idLabel.textColor = UIColor.secondaryLabel
         cell.idLabel.font = UIFont.systemFont(ofSize: 14, weight: .light)
         if let id = model.id {
             cell.idLabel.text = "ID: \(id)"
@@ -37,12 +37,12 @@ final class MappedCodeCell {
             cell.idLabel.text = R.string.localizable.codeCellUnknownID()
         }
 
-        cell.titleLabel.textColor = UIColor.black
+        cell.titleLabel.textColor = UIColor.label
         cell.titleLabel.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
         cell.titleLabel.numberOfLines = 2
         cell.titleLabel.text = model.title ?? R.string.localizable.codeCellUnknownTitle()
 
-        cell.bodyLabel.textColor = UIColor.black.withAlphaComponent(0.7)
+        cell.bodyLabel.textColor = UIColor.label.withAlphaComponent(0.8)
         cell.bodyLabel.font = UIFont.systemFont(ofSize: 12, weight: .regular)
         cell.bodyLabel.numberOfLines = 4
         cell.bodyLabel.text = model.body ?? R.string.localizable.codeCellUnknownBody()

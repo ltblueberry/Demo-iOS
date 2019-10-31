@@ -27,7 +27,6 @@ final class MappedXibCell {
         cell.selectionStyle = .none
         cell.backgroundColor = UIColor.clear
         cell.contentView.backgroundColor = UIColor.clear
-        cell.containerView.backgroundColor = UIColor.white
 
         cell.idLabel.text = model.id == 0 ? R.string.localizable.codeCellUnknownID() : "ID: \(model.id)"
         cell.titleLabel.text = model.title.isEmpty ? R.string.localizable.codeCellUnknownTitle() : model.title
