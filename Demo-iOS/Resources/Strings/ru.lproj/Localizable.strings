@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Demo-iOS
+
+  Created by ltblueberry on 07/10/2019.
+  Copyright © 2019 ltblueberry. All rights reserved.
+*/
+
+// Tab Bar Items
+"tabTitle.networking" = "Работа с сетью";
+"tabTitle.realm" = "Работа с БД";
+
+// Networking Module
+"networkingModule.navigationTitle" = "Работа с сетью";
+
+// CodeCell
+"codeCell.unknownID" = "Неизвестный ID";
+"codeCell.unknownTitle" = "Неизвестный заголовок";
+"codeCell.unknownBody" = "Неизвестный текст";
+
+// Common
+"error" = "Ошибка";
+"close" = "Закрыть";
+"mappingError" = "Не удалось обработать полученные данные";
+
+// Detail Module
+"detailModule.navigationTitle" = "Подробнее";
+
+// RealmSwift Module
+"realmModule.navigationTitle" = "RealmSwift";
